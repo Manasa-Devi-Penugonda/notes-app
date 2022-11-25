@@ -1,0 +1,140 @@
+.inner-section {
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.notes {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+aside {
+    height: 70%;
+    float: left;
+    filter: drop-shadow(2px 2px 6px lightgrey);
+    width: 18%;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: inset;
+    border-radius: 10px;
+}
+
+.icons {
+    padding-right: 20px;
+    color: grey;
+}
+
+.middle-section {
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-top: 35px;
+    align-self: center;
+    align-items: center;
+    margin-left: 20%;
+    width: 600px;
+    text-align: start;
+
+}
+
+.txtbgcolor:focus {
+    outline-color:lightgray;
+}
+
+
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.middle-part {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+.colorbtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-color:transparent;
+}
+
+.title {
+    border: none;
+    padding-left: 13px;
+    width: 95%;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+}
+
+.line {
+    border: 0.5px solid darkgrey;
+}
+
+.text {
+    border: none;
+    background-color: #f2f2f2;
+    width: 89%;
+    padding: 30px;
+}
+
+.colors-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+
+.color1 {
+    background: #86bbd8;
+}
+
+.color2 {
+    background: #efd0ca;
+}
+
+.color3 {
+    background: #d7f9f1;
+}
+
+.color4 {
+    background: #fb8f67;
+}
+
+.properties {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.addbtn {
+    background: #f2f2f2;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #595959;
+    cursor: pointer;
+}
+
+.pinned-notes {
+    margin-top: 40px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

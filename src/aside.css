@@ -1,0 +1,28 @@
+.inner-section {
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.notes {
+    display:flex;
+    padding:15px;
+    align-items:center;
+}
+
+aside {
+    height:70%;
+    float: left;
+    filter:drop-shadow(2px 2px 6px lightgrey);
+    width: 18%;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: inset;
+    border-radius: 10px;
+}
+
+.icons {
+    padding-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
