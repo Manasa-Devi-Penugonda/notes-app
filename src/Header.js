@@ -1,5 +1,4 @@
 import {BiSearchAlt2} from 'react-icons/bi'
-import {BsFillTrashFill} from 'react-icons/bs'
 
 import './header.css'
 const Header = () => {
@@ -14,7 +13,6 @@ return (
             <input type="search" placeholder="search" className="searchelement txtbgcolor" />
         </div>
         <div className="iconscontainer">
-        <BsFillTrashFill className='icons'size="25px"/>
         <img src="https://img.icons8.com/ios/24/000000/user-male-circle.png" className="image" alt="avatar" />
 
         </div>
