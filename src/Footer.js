@@ -8,8 +8,8 @@ return (
                 <span className="span span2">Manasa</span> Devi
             </div>
             <div className="iconscontainer">
-                <img src="https://img.icons8.com/fluent/48/000000/github.png" className="image" alt="avatar" />
-                <img src="https://img.icons8.com/material-two-tone/48/000000/linkedin--v1.png" className="image" alt="avatar" />
+                <a href="https://github.com/manasa-lovely"><img src="https://img.icons8.com/fluent/48/000000/github.png" className="image" alt="avatar" /> </a>
+               <a href="https://www.linkedin.com/in/manasa-devi-penugonda-b734b9236/"> <img src="https://img.icons8.com/material-two-tone/48/000000/linkedin--v1.png" className="image" alt="avatar" /> </a>
                 <img src="https://img.icons8.com/material-two-tone/48/000000/twitter.png" className='image' alt="avatar" />
             </div>
         </nav>

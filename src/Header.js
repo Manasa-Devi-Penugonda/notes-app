@@ -1,5 +1,5 @@
-import {BiSearchAlt2} from 'react-icons/bi'
-
+//import {BiSearchAlt2} from 'react-icons/bi'
+import {FaBookOpen} from 'react-icons/fa'
 import './header.css'
 const Header = () => {
 return (
@@ -8,13 +8,9 @@ return (
         <div className="heading">
             <span className="span">Keep</span> Notes
         </div>
-        <div className="search">
-            <BiSearchAlt2 className='icon' />
-            <input type="search" placeholder="search" className="searchelement txtbgcolor" />
-        </div>
         <div className="iconscontainer">
-        <img src="https://img.icons8.com/ios/24/000000/user-male-circle.png" className="image" alt="avatar" />
-
+        <img src="https://img.icons8.com/ios/24/000000/user-male-circle.png" className="image icon" alt="avatar" />
+          <FaBookOpen className='icon'/>
         </div>
     </nav>
 
